@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: muli;
+}
+
+.navbar {
+  background-color: wheat !important  ;
+}
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: green !important;
+}
+.navbar a {
+  font-size: 1.3rem ;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid plum;
+}
+.navbar a :hover {
+  color: aquamarine !important;
+}
+
+/* Main Landing Section  */
+
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+  
+}
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 600;
+}
+#header .brand-name {
+  color: green;
+}
+#header h2{
+  color: grey;
+  font-size: 24px;
+}
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.8s;
+  color: rgb(94, 173, 204);
+  border: 2px solid rgb(94, 173, 204);
+  text-decoration: none;
+}
+#header .btn-get-started:hover {
+  background: rgb(94, 173, 204);
+  color: white;
+}
+.header-img {
+  text-align: right;
+}
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
